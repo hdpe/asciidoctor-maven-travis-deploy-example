@@ -1,0 +1,12 @@
+language: java
+jdk: oraclejdk9
+install: true
+script: mvn verify -PbuildDocs
+deploy:
+  provider: pages
+  local-dir: target/generated-docs
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: master
