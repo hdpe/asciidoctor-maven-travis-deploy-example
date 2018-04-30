@@ -1,8 +1,0 @@
-= Asciidoctor + Maven + Travis -> Github Pages deploy example
-Ryan Pickett
-:toc: right
-
-Example demonstrating the continuous deploy of asciidoc-formatted documentation to Github Pages.
-
-include::overview.adoc[]
-
